@@ -1,5 +1,4 @@
 let OX = "";
-
 for (let index = 0; index < 10; index++) {
     if (index === 4) {
         OX = OX + "Q";
@@ -9,5 +8,4 @@ for (let index = 0; index < 10; index++) {
         OX = OX + "O";
     }
 }
-
 console.log(OX);
