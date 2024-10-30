@@ -1,9 +1,14 @@
 let boba = "";
-for (let index = 0; index < 20; index++) {
-    boba = boba + "O";
-    let max = Math.floor(Math.random() * 5);
-    for (let inner = 0; inner <= max; inner++) {
-        boba = boba + " ";
-    }
+for (let i = 0; i < 20; i++) {
+    //boba += "O";
+
+    let amountOfspaces = Math.ceil(Math.random() * 5);
+    boba += ("O"+" ".repeat(amountOfspaces))
+    
+    /*for (let j = 0; j <= amountOfspaces; j++) {
+        boba += " ";
+    } */
+
 }
+
 console.log(boba);
